@@ -151,7 +151,7 @@ a.article:hover {
     right: -250px;
     height: 100vh;
     z-index: 1999;
-    background: #0b2b4a;
+    background: #7386D5;
     color: #fff;
     transition: all 0.3s;
     overflow-y: scroll;
@@ -167,7 +167,7 @@ a.article:hover {
     height: 35px;
     line-height: 35px;
     text-align: center;
-    background: #d65d76;
+    background: #7386D5;
     position: absolute;
     top: 10px;
     right: 10px;
@@ -179,7 +179,7 @@ a.article:hover {
 
 #dismiss:hover {
     background: #fff;
-    color: #0b2b4a;
+    color: #7386D5;
 }
 
 .overlay {
@@ -200,7 +200,7 @@ a.article:hover {
 
 #sidemenu .sidemenu-header {
     padding: 20px;
-    background: #0b2b4a;
+    background: #6d7fcc;
 }
 
 #sidemenu ul.components {
@@ -220,7 +220,8 @@ a.article:hover {
 }
 
 #sidemenu ul li a:hover {
-    color: #d65d76;
+    color: #7386D5;
+    background: #fff;
 }
 
 #sidemenu ul li.active>a,
