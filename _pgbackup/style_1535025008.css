@@ -3,25 +3,21 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30
 /*
     STYLE
 */
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background: #fafafa;
 }
 
 p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
     color: #999;
 }
-h1, h2, h3, h4, h5, h6{
-font-family: 'Raleway', sans-serif;
-}
-ul li{
-    font-family: 'Raleway', sans-serif;
-    }
+
 a,
 a:hover,
 a:focus {
@@ -320,5 +316,5 @@ a.article:hover {
 }
 
 .btn#sidebarCollapse {
-    background-color: white;
+    background-color: white;;
 }
