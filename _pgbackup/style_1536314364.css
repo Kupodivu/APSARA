@@ -3,6 +3,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30
 /*
     STYLE
 */
+
 body {
     font-family: 'Raleway', sans-serif;
     background: #fafafa;
@@ -15,20 +16,12 @@ p {
     line-height: 1.7em;
     color: #999;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Raleway', sans-serif;
+h1, h2, h3, h4, h5, h6{
+font-family: 'Raleway', sans-serif;
 }
-
-ul li {
+ul li{
     font-family: 'Raleway', sans-serif;
-}
-
+    }
 a,
 a:hover,
 a:focus {
@@ -328,11 +321,4 @@ a.article:hover {
 
 .btn#sidebarCollapse {
     background-color: white;
-}
-
-.btn-hledat {
-    border-radius: 20px;
-    background-color: transparent;
-    color: white;
-    border: 2px solid white;
 }
