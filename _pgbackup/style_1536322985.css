@@ -95,10 +95,9 @@ a:focus {
 }
 
 #sidebar ul li a {
-    padding: 4px 15px;
+    padding: 5px 15px;
     font-size: 0.9em;
     display: block;
-    font-weight: 400;
 }
 
 #sidebar ul li a:hover {
@@ -330,8 +329,7 @@ a.article:hover {
     color: white;
     border: 1px solid white;
     font-family: Raleway, sans-serif;
-    font-size: 0.9em;
-    font-weight: 400;
+    font-size: 13px;
 }
 
 #sidebar ul.side-filter > li:not(:first-child) {
@@ -344,5 +342,5 @@ a.article:hover {
 }
 
 #sidebar .filter-item {
-    padding: 8px 0px;
+    padding: 10px 0px;
 }

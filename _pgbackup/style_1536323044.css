@@ -98,7 +98,6 @@ a:focus {
     padding: 4px 15px;
     font-size: 0.9em;
     display: block;
-    font-weight: 400;
 }
 
 #sidebar ul li a:hover {
@@ -328,14 +327,13 @@ a.article:hover {
     border-radius: 20px;
     background-color: transparent;
     color: white;
-    border: 1px solid white;
+    border: 2px solid white;
     font-family: Raleway, sans-serif;
     font-size: 0.9em;
-    font-weight: 400;
 }
 
 #sidebar ul.side-filter > li:not(:first-child) {
-    border-top: 1px solid white;
+    border-top: 2px solid white;
 }
 
 #sidebar ul.list-unstyled.components.side-filter li a.dropdown-toggle {
