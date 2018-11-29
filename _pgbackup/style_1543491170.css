@@ -1,3 +1,4 @@
+
 /*
     STYLE
 */
@@ -36,10 +37,11 @@ a:focus {
 }
 
 .navbar {
+    padding: 20px 10px;
     background: #fff;
     border: none;
     border-radius: 0;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .navbar-btn {
@@ -278,9 +280,9 @@ a.article:hover {
     min-height: 100vh;
     transition: all 0.3s;
 }
-
 .container {
-    padding: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 /* ---------------------------------------------------
@@ -294,17 +296,15 @@ a.article:hover {
     #sidebar.active {
         margin-left: 0;
     }
-
-    .sidebar-header:not(.mobil-logo) {
-        display: none;
+    .sidebar-header:not(.mobil-logo){
+        display:none;
     }
 }
-
 @media (min-width: 768px) {
-    #sidebarCollapse span,
-    #content .sidebar-header.mobil-logo {
-        display: none;
-    }
+#sidebarCollapse span, #content .sidebar-header.mobil-logo{
+    display: none;
+}
+
 }
 
 .logo_apsara_bile {
@@ -317,7 +317,6 @@ a.article:hover {
 
 .navbar.navbar-light .navbar-toggler.sidemenu_button {
     color: #0b2b4a;
-    padding: 0;
 }
 
 .navbar.navbar-light .navbar-toggler.sidemenu_button .navbar-toggler-icon {
@@ -330,7 +329,6 @@ a.article:hover {
 
 .btn#sidebarCollapse {
     background-color: white;
-    padding: 0;
 }
 
 .btn-hledat {

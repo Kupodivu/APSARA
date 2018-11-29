@@ -39,7 +39,7 @@ a:focus {
     background: #fff;
     border: none;
     border-radius: 0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .navbar-btn {
@@ -280,7 +280,8 @@ a.article:hover {
 }
 
 .container {
-    padding: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 /* ---------------------------------------------------
@@ -317,7 +318,6 @@ a.article:hover {
 
 .navbar.navbar-light .navbar-toggler.sidemenu_button {
     color: #0b2b4a;
-    padding: 0;
 }
 
 .navbar.navbar-light .navbar-toggler.sidemenu_button .navbar-toggler-icon {
@@ -330,7 +330,6 @@ a.article:hover {
 
 .btn#sidebarCollapse {
     background-color: white;
-    padding: 0;
 }
 
 .btn-hledat {
