@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>APSARA</title>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,600italic,600,700italic,700,400italic&subset=latin-ext,latin">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <img class="logo logo_apsara_bile" alt="logo apsara bile" src="images/apsara_logo_bile.png">
+            </div>
+            <ul class="list-unstyled components side-filter">
+                <li class="filter-item">
+                    <a href="#filterSubmenu1" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle collapsed">Obecné</a>
+                    <ul class="list-unstyled collapse show" id="filterSubmenu1">
+                        <li>
+                            <a href="#">Modelky</a>
+                        </li>
+                        <li>
+                            <a href="#">Hostesky</a>
+                        </li>
+                        <li>
+                            <a href="#">Casting</a>
+                        </li>
+                        <li class="active">
+                            <a href="#">Vše</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="filter-item">
+                    <a href="#filterSubmenu2" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle collapsed">Pohlaví</a>
+                    <ul class="list-unstyled collapse show" id="filterSubmenu2">
+                        <li>
+                            <a href="#">Muži</a>
+                        </li>
+                        <li>
+                            <a href="#">Ženy</a>
+                        </li>
+                        <li class="active">
+                            <a href="#">Vše</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="filter-item">
+                    <a href="#filterSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle collapsed">Věk</a>
+                    <ul class="list-unstyled collapse" id="filterSubmenu3">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="filter-item">
+                    <a href="#filterSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle collapsed">Výška</a>
+                    <ul class="list-unstyled collapse" id="filterSubmenu4">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="filter-item">
+                    <a href="#filterSubmenu5" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle collapsed">Barva
+                        vlasů</a>
+                    <ul class="list-unstyled collapse" id="filterSubmenu5">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="filter-item">
+                    <a href="#filterSubmenu6" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle collapsed">Cizí
+                        jazyk</a>
+                    <ul class="list-unstyled collapse" id="filterSubmenu6">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="filter-item">
+                    <a href="#filterSubmenu7" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle collapsed">Oblast</a>
+                    <ul class="list-unstyled collapse" id="filterSubmenu7">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="filter-item">
+                    <a href="#filterSubmenu8" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle collapsed">Jméno</a>
+                    <ul class="list-unstyled collapse" id="filterSubmenu8">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="filter-item">
+                    <a href="#filterSubmenu9" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle collapsed">ID</a>
+                    <ul class="list-unstyled collapse" id="filterSubmenu9">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <button type="button" class="btn btn-block btn-light btn-hledat btn-sm font-weight-normal">
+                <b>HLEDAT</b>
+            </button>
+        </nav>
+        <!-- sidemenu  -->
+        <nav id="sidemenu">
+            <div id="dismiss">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+            <div class="sidemenu-header">
+                <h3></h3>
+            </div>
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Home 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Page Content  -->
+        <div id="content" class="bg-white">
+            <div class="sidebar-header mobil-logo" style="background: #0b2b4a; width: 100%;">
+                <img class="logo logo_apsara_bile" alt="logo apsara bile" src="images/apsara_logo_bile.png" style="padding-left: 20px; padding-top: 20px; padding-bottom: 20px;">
+            </div>
+            <nav class="container navbar navbar-light sticky-top bg-white">
+                <button type="button" id="sidebarCollapse" class="btn">
+                    <span>Filtrovat</span>
+                </button>
+                <button class="navbar-toggler sidemenu_button" type="button" id="sidemenuCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+            <div class="container">
+                <div class="row main-profil">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="profil-foto"><img src="images/profil.jpg" alt=""></div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="profil-jmeno">Adriana T.</div>
+                        <div class="profil-udaje">
+                            <div><span class="profil-udaje-kategorie">ID:</span><span class="profil-udaje-udaj">11688</span></div>
+                            <div><span class="profil-udaje-kategorie">Kategorie:</span><span class="profil-udaje-udaj">modelky / casting</span></div>
+                            <div><span class="profil-udaje-kategorie">Věk:</span><span class="profil-udaje-udaj">28 let</span></div>
+                            <div><span class="profil-udaje-kategorie">Výška:</span><span class="profil-udaje-udaj">165 cm</span></div>
+                            <div><span class="profil-udaje-kategorie">Váha:</span><span class="profil-udaje-udaj">45 kg</span></div>
+                            <div><span class="profil-udaje-kategorie">Míry:</span><span class="profil-udaje-udaj">82–59–84 cm</span></div>
+                            <div><span class="profil-udaje-kategorie">Barva vlasů:</span><span class="profil-udaje-udaj">Blond</span></div>
+                            <div><span class="profil-udaje-kategorie">Barva očí:</span><span class="profil-udaje-udaj">Modrá</span></div>
+                            <div><span class="profil-udaje-kategorie">Konf. velikost:</span><span class="profil-udaje-udaj">32</span></div>
+                            <div><span class="profil-udaje-kategorie">Vel. obuvi:</span><span class="profil-udaje-udaj">36</span></div>
+                            <div><span class="profil-udaje-kategorie">Jazyk:</span><span class="profil-udaje-udaj">Angličtina</span></div>
+                            </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12">
+                        <div class="button-rezervovat"><a href="#">rezervovat</a></div>
+                    </div>
+                </div>
+                <div class="row galerie-profil">
+                    <div class="col-md-12 col-sm-12">
+                    <div class="masonry-gallery">
+                        <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+                        <img src="https://preview.ibb.co/mWpE3Q/2.jpg" alt="">
+                        <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+                        <img src="https://preview.ibb.co/mysOxk/3.jpg" alt="">
+                        <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+                    </div>
+                    </div>
+                </div>
+                <div class="row navigace-profil">
+                    <div class="col-md-4 col-sm-4">
+                        <div class="nav-prev"><a href="#">&#60; předchozí profil</a></div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 hidden-sm-down">
+                            <div class="nav-home"><a href="#"><i class="fas fa-th"></i></a></div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="nav-next"><a href="#">další profil &#62;</a></div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+            $('#dismiss, .overlay').on('click', function () {
+                $('#sidemenu').removeClass('active');
+                $('.overlay').removeClass('active');
+            });
+            $('#sidemenuCollapse').on('click', function () {
+                $('#sidemenu').addClass('active');
+                $('.overlay').addClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+
+</html>

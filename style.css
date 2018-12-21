@@ -208,7 +208,6 @@ a.article:hover {
 
 #sidemenu ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
 }
 
 #sidemenu ul p {
@@ -217,7 +216,7 @@ a.article:hover {
 }
 
 #sidemenu ul li a {
-    padding: 10px;
+    padding: 10px 20px;
     font-size: 1.1em;
     display: block;
 }
@@ -301,6 +300,7 @@ a.article:hover {
 }
 
 @media (min-width: 768px) {
+
     #sidebarCollapse span,
     #content .sidebar-header.mobil-logo {
         display: none;
@@ -331,6 +331,7 @@ a.article:hover {
 .btn#sidebarCollapse {
     background-color: white;
     padding: 0;
+    font-weight: 600;
 }
 
 .btn-hledat {
@@ -343,7 +344,7 @@ a.article:hover {
     font-weight: 400;
 }
 
-#sidebar ul.side-filter > li:not(:first-child) {
+#sidebar ul.side-filter>li:not(:first-child) {
     border-top: 1px solid white;
 }
 
@@ -355,59 +356,180 @@ a.article:hover {
 #sidebar .filter-item {
     padding: 8px 0px;
 }
+
 .container-profilu {
     position: relative;
-    width: 50%;
-  }
-  
-  .profil {
+}
+
+.profil {
     opacity: 1;
     display: block;
     width: 100%;
     height: auto;
     transition: .5s ease;
     margin-bottom: 30px;
-  }
-  
-  .middle {
+}
+
+.middle {
     transition: .5s ease;
-opacity: 0;
-position: absolute;
-left: 50%;
-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-text-align: center;
-bottom: 2px;
-width: 100%;
-padding-left: 15px;
-padding-right: 15px;
-  }
-  
-  .container-profilu:hover .image {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    bottom: 2px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container-profilu:hover .image {
     opacity: 0.3;
-  }
-  
-  .container-profilu:hover .middle {
+}
+
+.container-profilu:hover .middle {
     opacity: 1;
-  }
-  
-  .text-profilu {
+}
+
+.text-profilu {
     background-color: rgba(255, 255, 255, 0.600);
     color: #0c2b4b;
     font-size: 16px;
     padding: 14px 20px;
-  }
+}
 
-  .jmeno-profilu{
-  float: left;
-width: 50%;
-text-align: left;
-font-weight: 700;
-font-style: italic;
-  }
-  .id-profilu{
+.jmeno-profilu {
+    float: left;
+    width: 50%;
+    text-align: left;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.id-profilu {
     width: 50%;
     text-align: right;
     display: inline-block;
-font-style: italic;
-  }
+    font-style: italic;
+}
+
+/* ---------------------------------------------------
+    PROFIL
+----------------------------------------------------- */
+
+
+/*massonry*/
+.masonry-gallery {
+    -webkit-column-count: 3;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 3;
+    /* Firefox */
+    column-count: 3;
+    column-gap: 30px;
+}
+
+.masonry-gallery img {
+    width: 100%;
+    padding: 15px 0px;
+}
+
+@media (max-width: 500px) {
+
+    .masonry-gallery {
+        -webkit-column-count: 1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count: 1;
+        /* Firefox */
+        column-count: 1;
+    }
+    .masonry-gallery img {
+        padding: 0px 0px 20px 0px;
+    }
+}
+/*rezervovat*/
+.button-rezervovat{
+    font-weight: bold;
+    text-transform: UPPERCASE;
+    color: #0b2b4a;
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: 146px;
+    border-bottom: 2px solid;
+    margin: 55px auto 40px;
+}
+.button-rezervovat:hover{
+    color: #d65d76;
+    border-bottom: 2px solid #d65d76;
+}
+.profil-jmeno{
+    font-weight: bold;
+    font-size: 26px;
+}
+.profil-udaje{
+    font-style: italic;
+}
+.profil-udaje-kategorie{
+    width: 120px;
+    float: left;
+}
+@media (min-width: 768px) {
+.profil-foto img{
+        width: 80%;
+            margin: 0 20px 0 auto;
+            display: block;
+        }
+}
+@media (max-width: 767px) {
+    .profil-foto img{
+            width: 100%;
+                margin: 0 0 20px 0;
+                display: block;
+            }
+    }
+    
+.row.galerie-profil{
+    margin: 0 0 50px 0;
+}
+.row.navigace-profil{
+    margin: 0 0 30px 0; 
+    }
+    .nav-prev a:hover, .nav-home a:hover, .nav-next a:hover{
+        color:#d65d76;
+    }
+
+    .nav-prev{
+        font-style: italic;
+        font-weight: 600;
+    }
+    .nav-home{
+        text-align: center;
+        font-style: italic;
+        font-size: 21px;
+        line-height: 0;
+    }
+    .nav-next{
+        text-align: right;
+        font-style: italic;
+        font-weight: 600;
+    }
+    .container.footer{
+        background-color: #bcc6d8;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .container.footer img{
+        margin: 0 auto;
+        display: block;
+        width: 40px;
+    }
+    .credits{
+        color: white;
+        text-align: center;
+        font-style: italic;
+        padding-top:10px; 
+        font-size: 12px;
+    }
+    .credits a:hover{
+        color: #d65d76;
+    }
